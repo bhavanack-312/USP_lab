@@ -1,0 +1,11 @@
+echo enter the year
+read leap
+if [ $((leap%400)) -eq 0 ] ; then
+echo "entered year is leap year"
+elif [ $((leap%4)) -eq 0 ] ; then
+echo "entered year is leap year "
+elif [ $((leap%100)) -ne 0 ] ; then
+echo "entered year is not aleap year"
+else
+echo "entered year is leap year "
+fi
