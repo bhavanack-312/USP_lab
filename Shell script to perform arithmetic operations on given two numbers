@@ -1,4 +1,4 @@
-cho "Enter Two numbers : "
+echo "Enter Two numbers : "
 read a
 read b
 
